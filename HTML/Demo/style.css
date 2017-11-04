@@ -1,0 +1,31 @@
+
+
+
+
+
+body{
+    color: rgb(250, 233, 2)
+}
+h1{
+    color: rgb(255, 0, 0);
+}
+.purple {
+    color: rgb(132, 214, 25);
+    background: pink
+}  
+#superimportanth2 {
+    color: #0afce8;
+    border: 1px solid gray; 
+} 
+
+ul li{
+    color: magenta;
+}
+
+.half_and_half {
+    border: 2px solid rgb(62, 252, 5);
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+}
+

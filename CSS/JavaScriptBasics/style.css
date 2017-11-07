@@ -97,6 +97,10 @@
     
     p{color: white     
     }
+    
+    #moreinfo p {
+        margin-top: 5px;
+    }
 
 }
    

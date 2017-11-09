@@ -62,17 +62,22 @@ main{
     display: inline-block;
     
 }
+    .main_files ul{
+        height: 0px;
+    }
     .main_files ul li a{
         color:white;
         font-size: 12px;
         align-content: center;
         margin: 0px 0px 0px 100px;
+        height: 0px;
     }
     .main_files p{
         text-align: center;
         font-size: 12px;
         margin: 0px 0px 0px 280px;
         vertical-align: top;
+        
                 
     }
     .zenlines{
@@ -86,6 +91,7 @@ main{
     .zenlines p{
         font-size: 14px;
         margin: 0px 0px 0px 0px;
+        padding: 90px 0px 0px 0px;
         
     }
 

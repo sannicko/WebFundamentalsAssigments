@@ -1,8 +1,8 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: Arial;
-    outline: 1px dashed red;
+    font-family: sans-serif;
+    ###outline: 1px dashed red;
     color: white;
 }
 .wrapper{
@@ -18,11 +18,15 @@ header{
     height: 110px;
 }
     a{
-        color:yellow;
+        color: rgb(250, 195, 14);
     }
     .textsize{
         height: 18px;
         padding: 6px;
+    }
+    .textsize span{
+        color: black;
+        font-size: 14px;
     }
     .textsize p{
         margin: 0px 0px 0px 790px;
@@ -46,6 +50,10 @@ header{
     width: 970px;
     background: rgb(72, 126, 171)
 }
+    .menu ul{
+        vertical-align: center;
+        padding: 10px;
+    }
     .menu li{
         display: inline-block;
         margin: 0px 0px 0px 80px;
@@ -64,13 +72,23 @@ main{
 }
     .main_files ul{
         height: 0px;
+        list-style: none;
+        align-content: center;
     }
+    
     .main_files ul li a{
         color:white;
         font-size: 12px;
         align-content: center;
         margin: 0px 0px 0px 100px;
         height: 0px;
+    }
+    .main_files li a::before{
+        content: "»";
+        color: rgb(250, 234, 8);
+        margin: 5px;
+        text-decoration: none;
+
     }
     .main_files p{
         text-align: center;
@@ -87,7 +105,7 @@ main{
         
     }
     .zenlines ul li{
-        color: yellow;
+        color: rgb(250, 203, 14);
         font-size: 16px;
         list-style: none;
     }
@@ -100,20 +118,62 @@ main{
 
 .startapplications{
         background: white;
-        height: 285px;
-}        
+        height: 280px;
+        padding: 15px;
+        margin: 15px 0px 0px 0px;
+}
+    .startapplications h4{
+        color: black;
+        text-align: center;
+        
+    }        
 .started{
     display: inline-block;
     height: 280px;
     width: 460px;
-    background: red;
+    text-align: center; 
+}
+.started p{
+    color: black;
+    text-align: center; 
+       
+}
+.started ul{
+    list-style: none;
 }
 
+.started li{
+    color: rgba(0, 132, 255, 0.986);
+}
+.started li::before{
+    content: "•";
+    color: black;
+    margin: 10px;
+}
 .application{
     display: inline-block;
     height: 280px;
     width: 460px;
-    background: rgb(208, 255, 0);
+    text-align: center; 
+    
+}
+.application span{
+    color: rgba(0, 132, 255, 0.986);
+}
+.application p{
+    color: black
+}
+
+.application ul{
+    list-style: none;
+}
+.application li{
+    color: rgba(0, 132, 255, 0.986)
+}
+.application li::before{
+    content: "•";
+    color: black;
+    margin: 10px;
     
 }
 

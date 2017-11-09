@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    outline: 1px dashed red;
+    color: white;
+}
+.wrapper{
+    width: 970px;
+    margin: 0px auto;
+    background-color: rgba(38, 81, 117, 0.932);
+    padding: 0px; 
+}
+header{
+    height: 150px;
+}
+.search{
+    height: 110px;
+}
+    a{
+        color:yellow;
+    }
+    .textsize{
+        height: 18px;
+        padding: 6px;
+    }
+    .textsize p{
+        margin: 0px 0px 0px 790px;
+        font-size: 11px;
+    }
+    .searchgo{
+        height: 60px;
+    }
+    .searchgo img{
+        margin: 0px 0px 0px 15px;
+    }
+        .search_bar {
+            margin: 0px 0px 0px 754px;
+            
+        }
+    .logo{
+
+    }
+.menu{
+    height: 40px;
+    width: 970px;
+    background: rgb(72, 126, 171)
+}
+    .menu li{
+        display: inline-block;
+        margin: 0px 0px 0px 80px;
+        vertical-align: top;
+
+    }
+    .menu ul li a{
+        color:white;
+        text-decoration: none;
+        
+    }
+main{
+    height: 450px;
+    display: inline-block;
+    
+}
+    .main_files ul li a{
+        color:white;
+        font-size: 12px;
+        align-content: center;
+        margin: 0px 0px 0px 100px;
+    }
+    .main_files p{
+        text-align: center;
+        font-size: 12px;
+        margin: 0px 0px 0px 280px;
+        vertical-align: top;
+                
+    }
+    .zenlines{
+        text-align: center;
+        font-style: italic;
+    }
+    .zenlines ul li{
+        color: yellow;
+        font-size: 16px;
+    }
+    .zenlines p{
+        font-size: 14px;
+        margin: 0px 0px 0px 0px;
+        
+    }
+
+
+
+
+
+footer{
+    height: 97px;
+}

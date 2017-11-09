@@ -83,10 +83,13 @@ main{
     .zenlines{
         text-align: center;
         font-style: italic;
+        margin: 0px 0px 0px 280px;
+        
     }
     .zenlines ul li{
         color: yellow;
         font-size: 16px;
+        list-style: none;
     }
     .zenlines p{
         font-size: 14px;
@@ -95,10 +98,45 @@ main{
         
     }
 
+.startapplications{
+        background: white;
+        height: 285px;
+}        
+.started{
+    display: inline-block;
+    height: 280px;
+    width: 460px;
+    background: red;
+}
 
-
-
+.application{
+    display: inline-block;
+    height: 280px;
+    width: 460px;
+    background: rgb(208, 255, 0);
+    
+}
 
 footer{
     height: 97px;
+    display: inline-block;
+     
+    }
+    footer p{
+        display: inline-block;
+        margin: 40px 0px 0px 140px;    
+                
+    }
+    footer p a{
+        text-decoration: none;
+        color: rgba(0, 132, 255, 0.986);
+        font-size: 12px;
+    }
+
+copyright{
+    font-size: 8px;
+    text-align: center;    
 }
+    copyright p{
+        color: rgba(176, 203, 236, 0.719)
+    }

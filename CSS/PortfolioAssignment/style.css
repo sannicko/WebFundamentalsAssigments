@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+   }
+   .wrapper{
+        width: 970px;
+        height: 970px;
+        background-color: rgba(248, 246, 246, 0.979);    
+        padding: 0px;    
+   }
+   .header{
+       width: 938px;
+       height: 30px;
+       padding: 15px; 
+    }
+    .header h2{
+        display: inline-block;
+        margin-right: 470px;
+    }
+    .header h3{
+        display: inline-block;
+    }
+   .main_content{
+    width: 970px;
+    height: 800px;
+    padding: 20px 20px;
+    background-color: rgb(70, 41, 41);
+    }
+    .main_content img{
+        margin-bottom: 20px;
+        width: 330px;
+        height: 219px;
+        border: 5px solid blue
+    }
+    .main_content .about{
+        width: 570px;
+        display: inline-block;
+        vertical-align: top;
+        height: 220px;
+        background: rgb(212, 199, 199);
+        padding: 10px;
+        margin: 20px;
+    }
+    .main_content .about h4{
+        background: silver;
+        color: white;
+        padding: 5px 10px;
+    }
+    .main_content .other{
+    width: 280px;
+    height: 470px;
+    background-color: rgba(223, 211, 211, 0.918);    
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin-right:15px;
+    }
+    .other h4{
+        background: silver;
+        color: white;
+        padding: 5px 10px;
+    }
+    .other p{
+        width: 278;
+    }
+
+    .other h5{
+        background: silver;
+        color: white;
+        padding: 5px 10px;
+    }
+
+    .other ul {
+        width: 200px;
+        margin: 0;
+    }
+    .other img{
+        border: none;
+    }
+    .icons_technologies li{
+        display: inline-block;
+        margin-right:25px;
+    }
+    .icons_technologies img{
+        width: 40px;
+        height: 40px;
+    }
+    .other button{
+        background: green;
+        color:white;
+        border: solid 1px black;
+        border-radius: 4px;
+        margin: 14px 90px;
+        font-weight: 900;
+        padding: 5px
+    }
+    .footer{
+        width: auto;
+        height: 50px; 
+        padding: 55px; 
+    }
+    .footer p{
+        margin: auto;
+        width: 250px;
+    }
+    .footer ul{
+        margin: auto;
+        width: 700px;
+    }
+    .footer ul li{
+        display:inline-block;
+    }
+    .footer ul img{
+        width: 20px;
+        height: auto;
+        margin: auto;
+    }
+  
+
+}
+   

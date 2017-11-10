@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
-    ###outline: 1px dashed red;
+    /* outline: 1px dashed red; */
     color: white;
 }
 .wrapper{
@@ -11,42 +11,32 @@
     background-color: rgba(38, 81, 117, 0.932);
     padding: 0px; 
 }
-header{
-    height: 150px;
+header img{
+    width: 300px;
+    padding: 10px;
 }
-.search{
-    height: 110px;
+.search_bar {
+    display: inline-block;
+    margin-left: 390px;
+    margin-bottom: 20px;
+    text-align: center;
 }
-    a{
-        color: rgb(250, 195, 14);
-    }
-    .textsize{
-        height: 18px;
-        padding: 6px;
-    }
-    .textsize span{
-        color: black;
-        font-size: 14px;
-    }
-    .textsize p{
-        margin: 0px 0px 0px 790px;
-        font-size: 11px;
-    }
-    .searchgo{
-        height: 60px;
-    }
-    .searchgo img{
-        margin: 0px 0px 0px 15px;
-    }
-        .search_bar {
-            margin: 0px 0px 0px 754px;
-            
-        }
-    .logo{
-
-    }
+.search_bar p{
+    font-size: 12px;
+}
+.search_bar a{
+    color: rgb(250, 195, 14)
+}
+.search_bar span{
+    color: black
+}
+.search_bar form{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(44, 44, 44);
+}
 .menu{
-    height: 40px;
+    /* height: 40px; */
     width: 970px;
     background: rgb(72, 126, 171)
 }
@@ -125,8 +115,7 @@ main{
     .startapplications h4{
         color: black;
         text-align: center;
-        
-    }        
+}        
 .started{
     display: inline-block;
     height: 280px;

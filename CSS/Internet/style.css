@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px dotted red; */
+    font-family: arial;
+}
+.wrapper{
+    width: 970px;
+    margin: 0px auto;
+    background-color: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
+}
+.top_content img{
+    width: 90px;
+    height: 90px;
+}
+.top_content h1{
+    margin: 0px 0px 0px 5px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 30px 0px 0px 0px;
+    font-size: 37px;
+}
+.top_content span{
+    color: blue;
+}
+.wrapper h2{
+    color: white;
+    background-color:  #4076a5;
+    padding: 10px;
+    text-align: left;
+    font-size: 25px;
+}
+.left_content{
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+.left_content p{
+    color: black;
+    font-weight: 800;
+}
+.left_content_int span{
+    color: Red;
+}
+.left_content_net{
+    width: 220px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 0px 0px 0px;
+}
+.left_content_net p{
+    color: black;
+    font-weight: 800;
+    font-size: 12px;
+}
+.left_content_net span{
+    color: blue;
+}
+.left_content button{
+    width: 70%;
+	padding: 5px 0;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	font-size: 14px;
+	color: white;
+	font-weight: 900;
+}
+.watchavideo{
+    background: blue;   
+}
+.moreresources{
+    background: orange;
+}
+.left_content div.reinvent{
+    background-image: url('images/ad_background.png');
+	height: 200px;
+    padding-top: 20px;
+}
+.left_content div.reinvent h4{
+    font-size: 18px;
+	text-align: center;
+    color: white;
+    padding: 2px;
+}    
+.left_content div.reinvent img{
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.learmore{
+    background: #4076a5;
+    display: block;
+    margin: 0 auto;
+}
+.maincontent{
+    width: 700px;
+    display: inline-block;
+}
+.maintop{
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+.maintop img{
+    width: 20px;
+    vertical-align: top;
+    padding-top: 10px;
+}
+.maintop h4{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 14px;
+    color: rgb(0, 174, 255);
+    font-size: 14px;
+}
+.maintop .phoneimg{
+    vertical-align: top;
+    margin-left: 425px;
+    width: 45px;
+    margin-top:10px;
+}
+.maintop .contactinfo{
+    display: inline-block;
+}
+.maintop .contactinfo p{
+    color: grey;
+    font-size: 12px;
+    padding: 3px;
+}
+.maintop .contactinfo h3{
+    color: rgb(71, 186, 231);
+    font-size: 22px;
+    margin-left: 12px;
+}
+.mainbody{
+    padding: 10px;
+}
+.mainbody h3{
+	color:#4076a5;
+}
+.mainbody ul{
+    margin: 0px 0px 0px 40px;
+}
+.mainbody a{
+    color: rgb(0, 174, 255);
+}
+.mainbody img{
+    width: 200px;
+    margin: 0px auto;
+	display: block;
+}
+.mainbody ol{
+    padding: 5px;
+    margin: 0px 0px 0px 40px;
+}
+.main_body_footer{
+    width: 700px;
+    display: inline-block;
+}
+.main_body_footer{
+	margin-top: 20px;
+	border-top: 5px rgb(0, 174, 255)solid;
+	border-right: 5px rgb(0, 174, 255)solid;
+    border-left: 5px rgb(0, 174, 255)solid;
+}
+.main_body_footer img{
+    width: 100px;
+    display: inline-block;
+    vertical-align: bottom;
+    padding-top: 10px;
+}
+.main_body_footer h3{
+    display: inline-block;
+    margin-left: 14px;
+    vertical-align: top;
+    padding: 10px;
+}
+.main_body_footer p{
+    display: inline-block;
+    margin-left: 120px;
+    margin-bottom: 2px;
+    vertical-align: top;
+}

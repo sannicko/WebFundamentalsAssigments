@@ -1,7 +1,7 @@
 *{
 margin: 0;
 padding: 0px;
-border: 1px dotted red;
+/* border: 1px dotted red; */
 font-family: Helvetica;
 }
 .wrapper{
@@ -14,44 +14,120 @@ font-family: Helvetica;
     background-color: rgb(54, 207, 200);
 }
 .header img{
+    margin-top: 15px;
     width: 100px;
-    height: 100px;
+    margin-left: 15px;
+}
+.header h1 {
+	color:black;
+	vertical-align: bottom;
+    margin-bottom:30px;
+    display: inline-block;
+}
+.header .first {
+    margin-left: 50px;
+    display: inline-block;
+}
+.header h2 {
+	font-size: 16px;
+	margin-left: 10px;
+	margin-bottom: 40px;
+    vertical-align:bottom;
+    display: inline-block;
+}
+.header a{
+    color: white;
 }
 .main{
     margin-top: 15px;
     background-color: rgb(193, 194, 116);
 }
+.main h2, main p{
+    margin-bottom: 12px;
+    margin-left: 2px;
+}
+.main p{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.main h4{
+    margin-left: 3px;
+}
+.maintop{
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;   
+    margin: 10px;
+}
+.maintop span{
+    color: rgb(54, 207, 200);
+}
 .what{
     width: 200px;
+    height: 415px;
+    display: inline-block;
     background-color: rgb(115, 134, 115);
     padding: 15px;
     margin: 10px;
-    color: white:
+    color: white;
 }
+
 .gitinit{
     display: inline-block;
     width: 150px;
+    height: 160px;
     background-color: rgb(115, 134, 115);
-    margin: 10px;
-    margin-left: 270px;
+    vertical-align: top;
+    margin-left: 25px;
+    padding-top: 15px;
 }
 .gitadd{
     width: 150px;
+    height: 160px;
     display: inline-block;
     background-color: rgb(115, 134, 115);
-    margin: 10px;
-    margin-left: 20px;
+    margin-left: 25px;
+    padding-top: 15px;
 }
 .gitstatus{
     width: 150px;
+    height: 160px;
     display: inline-block;
+    vertical-align: top;
     background-color: rgb(115, 134, 115);
-    margin: 10px;
-    margin-left: 20px;
-    vertical-align: 
+    margin-left: 25px;
+    padding-top: 15px;
 }
-
-
+.gitcommit{
+    display: inline-block;
+    width: 240px;
+    height: 90px;
+    margin-top: 10px;
+    background-color: rgb(115, 134, 115);
+    vertical-align: top;
+    margin-left: 25px;
+    padding-top: 15px;
+}
+.gitremoteadd{
+    display: inline-block;
+    width: 240px;
+    height: 90px;
+    margin-top: 10px;
+    background-color: rgb(115, 134, 115);
+    vertical-align: top;
+    margin-left: 25px;
+    padding-top: 15px;
+}
+.gitpush{
+    display: inline-block;
+    width: 510px;
+    height: 130px;
+    margin-top: 10px;
+    background-color: rgb(115, 134, 115);
+    vertical-align: top;
+    margin-left: 25px;
+    padding-top: 15px;
+}
 .bottom{
     width: 970px;
     margin-top: 10px;

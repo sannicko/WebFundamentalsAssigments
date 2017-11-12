@@ -1,0 +1,65 @@
+*{
+margin: 0;
+padding: 0px;
+border: 1px dotted red;
+font-family: Helvetica;
+}
+.wrapper{
+    width: 970px;
+    margin: 0px auto;
+    background-color: rgb(97, 95, 95);
+}
+.header{
+    width: 970px;
+    background-color: rgb(54, 207, 200);
+}
+.header img{
+    width: 100px;
+    height: 100px;
+}
+.main{
+    margin-top: 15px;
+    background-color: rgb(193, 194, 116);
+}
+.what{
+    width: 200px;
+    background-color: rgb(115, 134, 115);
+    padding: 15px;
+    margin: 10px;
+    color: white:
+}
+.gitinit{
+    display: inline-block;
+    width: 150px;
+    background-color: rgb(115, 134, 115);
+    margin: 10px;
+    margin-left: 270px;
+}
+.gitadd{
+    width: 150px;
+    display: inline-block;
+    background-color: rgb(115, 134, 115);
+    margin: 10px;
+    margin-left: 20px;
+}
+.gitstatus{
+    width: 150px;
+    display: inline-block;
+    background-color: rgb(115, 134, 115);
+    margin: 10px;
+    margin-left: 20px;
+    vertical-align: 
+}
+
+
+.bottom{
+    width: 970px;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(54, 207, 200);
+    text-align: center;
+    font-size: 12px;
+}
+
+

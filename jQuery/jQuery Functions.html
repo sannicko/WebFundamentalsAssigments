@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="jquery-3.2.1.js"></script>
+    <script>
+        // Insert here the jQuery code functions
+        $(document).ready(function(){
+            $("h1").css("color", 'blue');
+            $('p').css('background-color', 'blue');
+            $('ul').click(function(){
+                $('ul').hide(3000);
+                $('ul').show(1000);
+            })
+            $('ol').click(function(){
+                $('ol').slideUp(1000);
+                $('ol').slideDown(2000);
+            })
+            $('h1').click(function(){
+                $('h1').hide(2000);
+                $('h1').fadeIn(2000);
+            })
+            $('h2').click(function(){
+                $('body').append('<h2>This is an important message</h2>');
+            })
+            $('h3').click(function(){
+                $('h3').fadeOut();
+                $('h3').show(500);
+            })
+            $('body').on('click', 'h2', function (){
+                $('body').append('<h2>To be Continued</h2>');
+            })
+            $('p').click(function(){
+                $('p').slideToggle();
+                $('p').fadeIn(3000);
+            })
+            $('#button1').click(function(){
+                ($('div').data("Weather", "Winter is Coming"));
+            })
+            $('#button2').click(function(){
+                alert($('div').data("Weather"));
+            })
+           
+        })
+
+    </script>
+</head>
+<body>
+    <h1>Welcome to Cyber Coding</h1>
+    <h2>Click carefully</h1>
+    <h3>Click Here</h3>
+    <h4>Then Click Again</h4>
+    <p>When the light has come</p>
+    <button id='button1'>Attach</button>
+    <button id='button2'>Retrieve</button>
+    <ul>
+        <li>List1</li>
+        <li>List2</li>
+        <li>List3</li>
+        <li>List4</li>
+    </ul>
+    <ol>
+        <li>List1<a href="Hello">
+        <li>List2<a href="Hello">
+        <li>List3<a href="Hello">
+        <li>List4<a href="Hello">
+    </ol>
+    <div></div>
+
+</body>
+</html>

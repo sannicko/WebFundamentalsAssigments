@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Card</title>
+    <script src="jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        $(document).ready(function(){
+            $("#submit").click(function(){
+                var firstname = $("#firstname").val();
+                var lasttname = $("#lastname").val();
+                var description = $("#description").val();
+                $("#importform").append("<div id = 'cardinfo'><p>" + firstname + " " + lasttname + "</><p id = 'back'> " + description + "</p></div>");
+                    return false;
+                });
+                $(document).on('click', '#cardinfo',
+	                  function() { 
+                     $(this).children().toggle();
+                });
+})
+    </script>
+</head>
+<body>
+    <div class="users">
+        <form id="form">     
+            <label for="First Name">First Name: </label>
+            <input type="text" placeholder="First Name" id="firstname">
+            <label for="Last Name">Last Name: </label>
+            <input type="text" placeholder="Last Name" id="lastname">
+            <label for="description">Description: </label>
+            <textarea name="descrition" id="description" cols="30" rows="10"> Enter description: </textarea>
+            <input id="submit" type="submit" name="submit" value="Add User">
+        </form>
+    </div>
+    <div id="importform">
+    </div>
+
+</body>
+</html>

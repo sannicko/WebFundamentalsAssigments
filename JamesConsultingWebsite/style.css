@@ -1,0 +1,138 @@
+*{
+margin: 0px;
+padding: 0px;
+/* border: 1px dotted red; */
+font-family: arial;
+color: white;
+}
+.wrapper{
+    width: 880px;
+    padding: 10px;
+    margin: 0px auto;
+    background-color: rgb(6, 33, 52);
+}
+    .wrapper h1{
+        width: 350px;
+        display: inline-block;
+        margin-left: 10px;
+        font-weight: lighter;
+    }
+    .wrapper span{
+        color:rgb(27, 153, 232);
+    }
+.toplinks{
+    display: inline-block;
+}
+    .header a, .footer a, .bottlinks{
+        text-decoration: none;
+    }
+    .header a:hover{
+        color:rgb(57, 114, 155);
+    }
+    .header h5{
+        vertical-align: center;
+        display: inline-block;
+        padding-bottom: 15px;
+        margin-left: 45px;
+        font-weight: lighter;
+    }
+.body{
+    width: 880;
+    background-color: white;
+    padding: 15px;
+    display: inline-block;
+}
+    .midbody img{
+        width: 30px;
+        height: 30px;
+        background-image:white;
+        display: inline-block;
+        padding: 10px 0px 0px 5px;
+    }
+    .midbody{
+        display: inline-block;
+        vertical-align: top;
+        width: 277px;
+        background-color: rgb(20, 104, 168);
+        /* margin-right: 15px; */
+    }
+    .midbody_text h2{
+        display: inline-block;
+        vertical-align: top;
+        font-weight: lighter;
+        width: 100px;
+        padding-top: 10px;
+    }
+    .midbody_text p{
+        padding: 15px;
+        font-size: 14px;
+    }
+    .midbody_text button{
+        width: 105px;
+        border-radius: 5px;
+        background: rgb(35, 147, 211);
+        padding: 10px;
+        vertical-align: center;
+        margin: 15px;
+    }
+    .botomtheworld {
+        width: 275px;
+        padding-top: 15px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .botomtheworld h3{
+        color: black;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        display: inline-block;
+        font-weight: lighter;
+    }
+    .botomtheworld p{
+        color: black;
+        padding-left: 10px;
+        padding-top: 5px;
+        display: inline-block;
+        margin-top: 15px;
+        font-size: 10px;
+    }
+    .botomtheworld button{
+        border-style: none;
+        background: none;
+    }
+    .botomtheworld span{
+        font-size: 13px;
+    }
+    #bubble{
+        position: inline-block;
+        width: 250px;
+        height: 65px;
+        padding: 5px;
+        background: rgb(218, 237, 255);
+        border-bottom: 15px solid black;
+        border-bottom-color: inherit; 
+        border-left: 20px solid transparent;
+        border-right: 0px solid transparent;
+        font-style: italic;
+        font-size: 12px;
+    }
+    #bubble p{
+        margin-bottom: 15px;
+}
+.footer{
+    width: 290px;
+    height: 39px;
+    background: rgb(218, 237, 255);
+    padding-left: 295px;
+    padding-right: 295px;
+    vertical-align: center;
+}
+    .bottlinks{
+        width: 52px;
+        display: inline-block;
+        padding-top: 12px;
+    }
+    .bottlinks a{
+        color: rgb(103, 149, 183);
+        font-weight: lighter;
+    }
